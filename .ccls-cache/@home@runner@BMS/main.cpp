@@ -155,7 +155,7 @@ void BankAccount::create_account() {
     cout << "Enter the name of the account holder: ";
     cin.ignore();
     cin.getline(name, 50);
-    cout << "\tEnter the type of the account (C/S): ";
+    cout << "\tEnter the type of the account (C/S):  ";
     cin >> type;
     type = toupper(type);
     cout << "\tEnter the initial amount (>=500 for saving and >= 1000 for current): ";
